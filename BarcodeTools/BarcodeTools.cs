@@ -178,6 +178,7 @@ namespace BarcodeLibrary
             char[] chars = code.ToCharArray();
             int count = 0;
 
+            // Convert any non-numeric characters into numbers according to the rules
             foreach(char c in chars)
             {
                 if(!char.IsDigit(c))

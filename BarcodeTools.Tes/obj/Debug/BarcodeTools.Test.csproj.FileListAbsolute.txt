@@ -1,0 +1,9 @@
+\\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools.Tes\bin\Debug\BarcodeTools.Tes.dll
+\\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools.Tes\bin\Debug\BarcodeTools.Tes.pdb
+\\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools.Tes\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+\\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools.Tes\obj\Debug\BarcodeTools.Test.csprojResolveAssemblyReference.cache
+\\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools.Tes\obj\Debug\BarcodeTools.Tes.dll
+\\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools.Tes\obj\Debug\BarcodeTools.Tes.pdb
+\\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools.Tes\bin\Debug\BarcodeTools.dll
+\\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools.Tes\bin\Debug\DataMatrix.net.dll
+\\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools.Tes\bin\Debug\BarcodeTools.pdb
