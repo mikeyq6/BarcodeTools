@@ -1,0 +1,6 @@
+\\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools\bin\BarcodeTools.dll.config
+\\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools\bin\BarcodeTools.dll
+\\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools\bin\BarcodeTools.pdb
+\\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools\obj\Release\BarcodeTools.dll
+\\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools\obj\Release\BarcodeTools.pdb
+\\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools\bin\DataMatrix.net.dll
