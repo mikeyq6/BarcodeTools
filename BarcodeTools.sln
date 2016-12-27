@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarcodeTools", "BarcodeTools\BarcodeTools.csproj", "{D7710794-C790-42D2-B9FB-22B3AF46A827}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarcodeLibrary", "BarcodeTools\BarcodeLibrary.csproj", "{D7710794-C790-42D2-B9FB-22B3AF46A827}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarcodeTools.Test", "BarcodeTools.Tes\BarcodeTools.Test.csproj", "{9DB88FF9-56C5-4F95-8638-87B313EB1F51}"
 EndProject

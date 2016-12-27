@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BarcodeTools</RootNamespace>
-    <AssemblyName>BarcodeTools</AssemblyName>
+    <RootNamespace>BarcodeLibrary</RootNamespace>
+    <AssemblyName>BarcodeLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -43,7 +43,13 @@
       <HintPath>..\packages\DataMatrix.net.0.4.2\lib\20\DataMatrix.net.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="IEC16022Sharp">
+      <HintPath>..\..\iec16022sharp\IEC16022Sharp\bin\Debug\IEC16022Sharp.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="OnBarcode.Barcode.ASPNET">
+      <HintPath>D:\Library\OnBarcode.Barcode.ASPNET.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -67,6 +73,8 @@
   <ItemGroup>
     <Compile Include="BarcodeTools.cs" />
     <Compile Include="Code128.cs" />
+    <Compile Include="DataMatrix\CodeWord.cs" />
+    <Compile Include="DataMatrix\Interfaces\ICodeWord.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using BarcodeLibrary;
+using BarcodeTools;
 
 namespace BarcodeTools.Tests
 {
@@ -27,7 +27,7 @@ namespace BarcodeTools.Tests
             // Assert
             for (int i=0; i<inputs.Length; i++)
             {
-                result = BarcodeLibrary.BarcodeTools.getChecksumButForDataMatrix(inputs[i]);
+                result = BarcodeLibrary.BarcodeTools.getChecksumBitForDataMatrix(inputs[i]);
                 Assert.AreEqual(expecteds[i], result, $"Case {i} :: Expected {expecteds[i]}, but result was {result}");
             }
         }

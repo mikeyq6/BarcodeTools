@@ -35,8 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BarcodeTools">
-      <HintPath>..\BarcodeTools\bin\BarcodeTools.dll</HintPath>
+    <Reference Include="Moq, Version=4.2.1510.2205, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
+      <HintPath>..\packages\Moq.4.2.1510.2205\lib\net40\Moq.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -57,7 +58,17 @@
   </Choose>
   <ItemGroup>
     <Compile Include="BarcodeTests.cs" />
+    <Compile Include="DataMatrixTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BarcodeTools\BarcodeLibrary.csproj">
+      <Project>{d7710794-c790-42d2-b9fb-22b3af46a827}</Project>
+      <Name>BarcodeLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

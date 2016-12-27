@@ -5,6 +5,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.Linq;
 using System.Web;
+using IEC16022Sharp;
 
 namespace BarcodeLibrary
 {
@@ -172,7 +173,7 @@ namespace BarcodeLibrary
             return ((char)(digit + 48)).ToString();
         }
 
-        public static string getChecksumButForDataMatrix(string code)
+        public static string getChecksumBitForDataMatrix(string code)
         {
             string checksum = "";
             char[] chars = code.ToCharArray();
@@ -219,6 +220,10 @@ namespace BarcodeLibrary
 
         public static Bitmap GenerateGS1DataMatrix(string code, int moduleSize)
         {
+            IEC16022Sharp.DataMatrix matrix = new IEC16022Sharp.DataMatrix(code, 26, 26, EncodingType.Ascii);
+            Bitmap image = DMImgUtility.SimpleResizeBmp(matrix.Image, 3, 5);
+            return image;
+            /*
             DmtxImageEncoder encoder = new DmtxImageEncoder();
             DmtxImageEncoderOptions options = new DmtxImageEncoderOptions();
             options.ModuleSize = moduleSize;
@@ -227,7 +232,7 @@ namespace BarcodeLibrary
             options.ForeColor = Color.Black;
             options.Scheme = DmtxScheme.DmtxSchemeAsciiGS1;
             return encoder.EncodeImage(code, options);
-
+            */
         }
     }
 }

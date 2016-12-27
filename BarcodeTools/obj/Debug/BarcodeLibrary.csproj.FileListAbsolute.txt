@@ -1,7 +1,9 @@
-\\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools\bin\DataMatrix.net.dll
-\\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools\bin\OnBarcode.Barcode.ASPNET.dll
 \\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools\bin\BarcodeLibrary.dll.config
 \\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools\bin\BarcodeLibrary.dll
 \\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools\bin\BarcodeLibrary.pdb
+\\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools\bin\DataMatrix.net.dll
+\\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools\bin\OnBarcode.Barcode.ASPNET.dll
 \\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools\obj\Debug\BarcodeLibrary.dll
 \\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools\obj\Debug\BarcodeLibrary.pdb
+\\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools\bin\IEC16022Sharp.dll
+\\psf\Home\Documents\Visual Studio 2015\Projects\BarcodeTools\BarcodeTools\bin\IEC16022Sharp.pdb
