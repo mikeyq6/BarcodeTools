@@ -220,10 +220,6 @@ namespace BarcodeLibrary
 
         public static Bitmap GenerateGS1DataMatrix(string code, int moduleSize)
         {
-            IEC16022Sharp.DataMatrix matrix = new IEC16022Sharp.DataMatrix(code, 26, 26, EncodingType.Ascii);
-            Bitmap image = DMImgUtility.SimpleResizeBmp(matrix.Image, 3, 5);
-            return image;
-            /*
             DmtxImageEncoder encoder = new DmtxImageEncoder();
             DmtxImageEncoderOptions options = new DmtxImageEncoderOptions();
             options.ModuleSize = moduleSize;
@@ -232,7 +228,16 @@ namespace BarcodeLibrary
             options.ForeColor = Color.Black;
             options.Scheme = DmtxScheme.DmtxSchemeAsciiGS1;
             return encoder.EncodeImage(code, options);
-            */
+            //return GenerateGS1DataMatrix(code.Select(x => (byte)x).ToArray(), moduleSize);
         }
+
+        /*public static Bitmap GenerateGS1DataMatrix(byte[] bytes, int moduleSize)
+        {
+            
+            IEC16022Sharp.DataMatrix matrix = new IEC16022Sharp.DataMatrix(bytes, 26, 26, EncodingType.Ascii);
+            Bitmap image = DMImgUtility.SimpleResizeBmp(matrix.Image, 3, 5);
+            return image;
+            
+        }*/
     }
 }
