@@ -47,6 +47,10 @@
       <HintPath>..\..\iec16022sharp\IEC16022Sharp\bin\Debug\IEC16022Sharp.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Neodynamic.SDK.Barcode, Version=6.0.2000.0, Culture=neutral, PublicKeyToken=c6b33c3093a0d4cd, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Neodynamic\Barcode Professional SDK\v6.0\Redistributable\For .NET (AnyCPU)\Neodynamic.SDK.Barcode.dll</HintPath>
+    </Reference>
     <Reference Include="OnBarcode.Barcode.ASPNET">
       <HintPath>D:\Library\OnBarcode.Barcode.ASPNET.dll</HintPath>
     </Reference>
@@ -71,10 +75,12 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="APCodeGenerator.cs" />
     <Compile Include="BarcodeTools.cs" />
     <Compile Include="Code128.cs" />
     <Compile Include="DataMatrix\CodeWord.cs" />
     <Compile Include="DataMatrix\Interfaces\ICodeWord.cs" />
+    <Compile Include="GS1_128.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
