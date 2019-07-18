@@ -22,10 +22,10 @@ namespace BarcodeLibrary
         private const char FROM_C_TO_A = (char)101;
         private const char FROM_A_TO_C = (char)99;
 
-        public static Image getGS1128Barcode(string value, string readable)
+        public static Image getGS1128Barcode(string value, string readable, int barcodeHeight=17, int barcodeWidth=100)
         {
             GS1_128 gs1128Encoder = new GS1_128();
-            return gs1128Encoder.Encode(value, readable);
+            return gs1128Encoder.Encode(value, readable, barcodeHeight, barcodeWidth);
         }
 
         public static string encode128barcode(string value)
