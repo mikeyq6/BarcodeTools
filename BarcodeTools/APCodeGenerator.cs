@@ -10,7 +10,7 @@ namespace BarcodeLibrary
     {
         private string humanReadable;
         const string prefix = "";
-        char GS = (char)29;
+        public static char GS = (char)29;
         #region Properties
 
         public string HumanReadable
